@@ -35,19 +35,28 @@
 <body>
 
     <!-- header -->
-    <header class="w-full h-20 flex justify-center">
+    <header class="w-full h-20 flex justify-center absolute bg-white">
         <nav class="w-4/5 h-full flex justify-between items-center font-bebas">
             <h1 class="text-3xl">SM Production</h1>
-            <ul class="flex space-x-5 text-xl">
+            <ul class="space-x-5 text-xl hidden md:flex">
                 <li>About US</li>
                 <li>Our Movies</li>
                 <li>Services</li>
             </ul>
         </nav>
-
     </header>
     <!-- header -->
     <!-- main -->
+    <main>
+        <section class="h-screen pt-20 bg-[url('./images/banner.jpg')] bg-cover font-bebas text-white flex items-center">
+            <div class="ml-10 w-1/2">
+                <p class="text-xl">Movie Production Studio</p>
+                <h1 class="text-7xl">Films Made to <br> <span class="text-customYellow">Perfection</span></h1>
+                <p class="font-montserrat my-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</p>
+                <button class="border-4 px-5 py-2 text-xl hover:bg-customBlack hover:text-customYellow hover:border-customBlack transition-all">Discover More</button>
+            </div>
+        </section>
+    </main>
     <!-- main  -->
 </body>
 
